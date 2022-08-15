@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    @apply bg-[#89898A] text-zinc-100;
+
+}
+
+/* Se usa corchete quando queremos colocar uma informação que não está dentro do tailwind, como por exemplo
+ esta cor #89898a */
